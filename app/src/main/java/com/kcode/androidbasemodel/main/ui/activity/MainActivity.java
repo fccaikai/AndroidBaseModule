@@ -30,7 +30,6 @@ public class MainActivity extends BaseActivity {
     protected void bindView() {
         mRecyclerView = $(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        Log.d(TAG, s.toLowerCase());
     }
 
     @Override
